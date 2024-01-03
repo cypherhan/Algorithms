@@ -48,7 +48,7 @@ def decompress(compressedText):
 
 
 # Derste verilen örneği test edelim
-compressedText = compress('ABABBABCABABBA')
+compressedText = compress('ADEMMADEMADET')
 print (compressedText)
 decompressedText = decompress(compressedText)
 print (decompressedText)
