@@ -1,12 +1,11 @@
-
 import heapq
 import os
 from collections import defaultdict
 
 def frekans_hesapla(metin):
     frekans = defaultdict(int)
-    for character in metin:
-        frekans[character] += 1
+    for karakter in metin:
+        frekans[karakter] += 1
     return frekans
 
 
